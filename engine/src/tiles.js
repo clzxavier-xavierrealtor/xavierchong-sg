@@ -26,7 +26,7 @@ export async function loadPhotoreal({ key, D, scene, camera, renderer, project, 
 
   let failed = false;
   tiles.addEventListener('load-error', e => { if (!failed) { failed = true; onStatus?.('error', e?.error?.message || 'Could not load the photoreal city.'); } });
-  tiles.addEventListener('load-tile-set', () => onStatus?.('loading'));
+  tiles.addEventListener('load-tileset', () => onStatus?.('loading'));
 
   // Flatten Google's mesh inside the site so our model sits on a clean pad.
   const addFlatten = () => {
@@ -55,22 +55,38 @@ export async function loadPhotoreal({ key, D, scene, camera, renderer, project, 
       hits.sort((a, b) => a - b);
       const med = hits[Math.floor(hits.length / 2)];
       holder.position.y = -med;
-      calibrated++;
-      if (calibrated === 1) { addFlatten(); onStatus?.('ready'); }
+      calibrated++; hcache.clear();
+      if (calibrated === 1) { addFlatten(); api.ready = true; onStatus?.('ready'); }
+      onStatus?.('calibrated');
     }
   };
   const timer = setInterval(() => { calibrate(); if (calibrated >= 4) clearInterval(timer); }, 1500);
+
+  // Ground height on Google's mesh, sampled on a 20m grid (cached) and interpolated. Used to sit cars on the real roads.
+  const hcache = new Map(), G = 20;
+  const sample = (gx, gz) => {
+    const k = gx + ',' + gz; if (hcache.has(k)) return hcache.get(k);
+    ray.set(new THREE.Vector3(gx * G, 600, gz * G), new THREE.Vector3(0, -1, 0));
+    const h = ray.intersectObject(tiles.group, true)[0];
+    const y = h ? h.point.y : 0; hcache.set(k, y); return y;
+  };
+  const heightAt = (x, z) => {
+    const gx = Math.floor(x / G), gz = Math.floor(z / G), fx = x / G - gx, fz = z / G - gz;
+    const a = sample(gx, gz), b = sample(gx + 1, gz), c = sample(gx, gz + 1), d = sample(gx + 1, gz + 1);
+    return (a * (1 - fx) + b * fx) * (1 - fz) + (c * (1 - fx) + d * fx) * fz + 0.1;
+  };
 
   const attributions = () => {
     const out = []; tiles.getAttributions(out);
     return out.filter(a => a.type === 'string').map(a => a.value).join(' · ');
   };
 
-  return {
-    holder, tiles,
+  const api = {
+    holder, tiles, ready: false, heightAt,
     update() { camera.updateMatrixWorld(); tiles.update(); },
     resize() { tiles.setResolutionFromRenderer(camera, renderer); },
     attributions,
     dispose() { clearInterval(timer); tiles.dispose(); scene.remove(holder); },
   };
+  return api;
 }

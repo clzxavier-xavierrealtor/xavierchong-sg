@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { createScene, buildContext, buildProject } from './world.js';
+import { createScene, buildContext, buildProject, buildTraffic } from './world.js';
 import { rad, bearing, compass, angDiff } from './geom.js';
 
 const $ = (s, r = document) => r.querySelector(s);
@@ -52,6 +52,8 @@ export async function boot(cfg) {
   scene.add(P.group);
   const C = buildContext(D, P.siteTest);
   scene.add(C.group, C.furniture);
+  const T = buildTraffic(C.roadLines, P.siteTest);
+  scene.add(T.group);
   const { units, byKey, blocks, inst } = P;
   const SH = D.storeyHeight;
 
@@ -72,7 +74,7 @@ export async function boot(cfg) {
   // ---------- state & colour ----------
   const st = { sel: null, hover: null, groups: new Set(), colorTypes: false, look: false, fac: null, showFac: false, tab: 'explore', photoreal: false, short: store.get(`short:${D.slug}`, []) };
   const col = new THREE.Color(), BRASS = new THREE.Color('#c08a2e'), DIM = new THREE.Color('#d9ddd6'), HOVER = new THREE.Color('#bfc8c4');
-  const BASE = { Classic: new THREE.Color('#ffffff'), Luxury: new THREE.Color('#f6eedf') };
+  const BASE = { Classic: new THREE.Color('#ffffff'), Luxury: new THREE.Color('#ffffff') };
   function paint() {
     units.forEach(u => {
       if ((st.colorTypes || st.groups.size) && u.cat) col.set(groupOf(u.cat.group).color); else col.copy(BASE[blocks[u.blk].collection] || BASE.Classic);
@@ -81,9 +83,9 @@ export async function boot(cfg) {
       if (st.sel) { if (u === st.sel) col.copy(BRASS); else if (u.no === st.sel.no) col.lerp(BRASS, 0.3); }
       if (st.short.includes(u.key) && u !== st.sel) col.lerp(new THREE.Color('#7a5ec8'), 0.55);
       if (st.hover === u && u !== st.sel) col.lerp(HOVER, 0.6);
-      inst.setColorAt(u.i, col);
+      inst.setColorAt(u, col);
     });
-    inst.instanceColor.needsUpdate = true;
+    inst.flush();
     Object.values(blocks).forEach(B => B.label?.classList.toggle('on', !!st.sel && st.sel.blk === B.id));
     facPins.forEach(p => p.el.classList.toggle('on', st.fac === p.f));
   }
@@ -172,7 +174,7 @@ export async function boot(cfg) {
   const tool = (label, pressed, onClick, id) => { const b = document.createElement('button'); b.className = 'chipbtn'; b.textContent = label; if (id) b.id = id; b.setAttribute('aria-pressed', pressed); b.onclick = () => onClick(b); toolsEl.appendChild(b); return b; };
   tool('Unit types', false, b => { st.colorTypes = !st.colorTypes; b.setAttribute('aria-pressed', st.colorTypes); paint(); });
   tool('Facilities', false, b => { st.showFac = !st.showFac; b.setAttribute('aria-pressed', st.showFac); });
-  let photoreal = null;
+  let photoreal = null, prTimer = null;
   const prBtn = cfg.mapsKey ? tool('Photoreal city', false, b => togglePhotoreal(b), 'prbtn') : null;
   async function togglePhotoreal(b) {
     if (!photoreal) {
@@ -180,19 +182,23 @@ export async function boot(cfg) {
       try {
         const { loadPhotoreal } = await import('./tiles.js');
         photoreal = await loadPhotoreal({ key: cfg.mapsKey, D, scene, camera, renderer, project: P, onStatus: (s, msg) => {
-          if (s === 'ready') setStatus(''); if (s === 'error') { setStatus(msg + ' Showing the model city.'); setPhotoreal(false); }
+          if (s === 'ready') { setStatus(''); clearTimeout(prTimer); if (st.photoreal) setPhotoreal(true); } if (s === 'calibrated' && st.photoreal) T.setHeights(photoreal.heightAt); if (s === 'error') { setStatus(msg + ' Showing the model city.'); setPhotoreal(false); }
         } });
       } catch (e) { console.error(e); setStatus('The photoreal city could not load. Showing the model city.'); b.disabled = false; return; }
       b.disabled = false;
+      prTimer = setTimeout(() => { if (!photoreal?.ready) { setStatus(''); setPhotoreal(false); b.disabled = true; b.title = 'The photoreal city is only available on xavierchong.sg'; } }, 20000);
     }
     setPhotoreal(!st.photoreal);
   }
   function setPhotoreal(on) {
     st.photoreal = on; prBtn?.setAttribute('aria-pressed', on);
+    const real = on && !!photoreal?.ready;
     if (photoreal) photoreal.holder.visible = on;
-    C.group.visible = !on; C.furniture.visible = !on;
-    scene.fog.far = on ? 6000 : 2600; scene.background = new THREE.Color(on ? '#dfe8ee' : '#e9eeec');
-    $('#attrib').textContent = on ? '' : (D.osm.attribution || '');
+    C.group.visible = !real; C.furniture.visible = !real;
+    if (on && !real) setStatus('Loading the photoreal city…');
+    T.setHeights(on && photoreal?.ready ? photoreal.heightAt : null);
+    scene.fog.far = real ? 6000 : 2600; scene.background = new THREE.Color(real ? '#dfe8ee' : '#e9eeec');
+    $('#attrib').textContent = real ? '' : (D.osm.attribution || '');
   }
   $('#attrib').textContent = D.osm.attribution || '';
   const setStatus = t => { const s = $('#status'); s.textContent = t; s.hidden = !t; };
@@ -411,7 +417,7 @@ export async function boot(cfg) {
 
   // ---------- picking ----------
   const ray = new THREE.Raycaster(), mouse = new THREE.Vector2(), tip = $('#tip'); let down = null;
-  const pick = e => { const r = canvas.getBoundingClientRect(); mouse.set((e.clientX - r.left) / r.width * 2 - 1, -(e.clientY - r.top) / r.height * 2 + 1); ray.setFromCamera(mouse, camera); const h = ray.intersectObject(inst)[0]; return h ? units[h.instanceId] : null; };
+  const pick = e => { const r = canvas.getBoundingClientRect(); mouse.set((e.clientX - r.left) / r.width * 2 - 1, -(e.clientY - r.top) / r.height * 2 + 1); ray.setFromCamera(mouse, camera); return inst.unitFromHit(ray.intersectObjects(inst.meshes)[0]); };
   canvas.addEventListener('pointerdown', e => { down = { x: e.clientX, y: e.clientY }; });
   canvas.addEventListener('pointerup', e => { if (!down || Math.hypot(e.clientX - down.x, e.clientY - down.y) > 6) { down = null; return; } down = null; if (st.look) return; const u = pick(e); if (u) select(u); });
   canvas.addEventListener('pointermove', e => {
@@ -426,8 +432,9 @@ export async function boot(cfg) {
   new ResizeObserver(resize).observe(canvas); resize();
   camera.position.copy(fit(CAMS.overview)); controls.target.set(...CAMS.overview.target);
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  let lastAttrib = 0;
+  let lastAttrib = 0, lastT = performance.now();
   renderer.setAnimationLoop(() => {
+    const now = performance.now(); T.update((now - lastT) / 1000); lastT = now;
     if (anim) { const t = reduce ? 1 : Math.min(1, (performance.now() - anim.s) / 950), k = 1 - Math.pow(1 - t, 3); camera.position.lerpVectors(anim.p0, anim.p1, k); controls.target.lerpVectors(anim.t0, anim.t1, k); if (t >= 1) { const d = anim.done; anim = null; d && d(); } }
     controls.update();
     if (photoreal && st.photoreal) { photoreal.update(); if (performance.now() - lastAttrib > 2000) { lastAttrib = performance.now(); $('#attrib').textContent = 'Map data ©Google' + (photoreal.attributions() ? ' · ' + photoreal.attributions() : ''); } }
@@ -438,5 +445,5 @@ export async function boot(cfg) {
   const q = new URLSearchParams(location.search).get('unit') || (location.hash.match(/^#u(\d{2}-\d{2})$/) || [])[1];
   if (q && byKey[q]) select(byKey[q]);
   if (cfg.mapsKey && cfg.photorealDefault !== false && !matchMedia('(max-width: 860px)').matches) prBtn?.click();
-  window.__explorer = { D, P, C, camera, controls, select, byKey };
+  window.__explorer = { D, P, C, T, camera, controls, select, byKey };
 }
