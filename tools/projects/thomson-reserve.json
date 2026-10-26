@@ -1,0 +1,1424 @@
+{
+ "slug": "thomson-reserve",
+ "name": "Thomson Reserve",
+ "subtitle": "Bright Hill Drive · Upper Thomson · District 20",
+ "titles": {
+  "public": "Thomson Reserve 3D",
+  "client": "Thomson Reserve Stack Map"
+ },
+ "lede": "1,268 homes in six towers on a 5-hectare site raised above Upper Thomson Road, beside Upper Thomson MRT.",
+ "facts": [
+  [
+   "Homes",
+   "1,268 · 2 to 5 bedrooms"
+  ],
+  [
+   "Sizes",
+   "592 to 1,808 sqft"
+  ],
+  [
+   "Classic Collection",
+   "Blk 1, 3, 9, 11 · 21 storeys"
+  ],
+  [
+   "Luxury Collection",
+   "Blk 5, 7 · 30 storeys, private lifts"
+  ],
+  [
+   "Tenure",
+   "99 years from 14 Jul 2026"
+  ],
+  [
+   "Expected TOP",
+   "28 Feb 2031"
+  ],
+  [
+   "MRT",
+   "Upper Thomson TE8, Exit 2 at the gate"
+  ],
+  [
+   "Facilities",
+   "3 clubs, 86 facilities, two 50m pools"
+  ]
+ ],
+ "sources": "Positions traced from the developer's site plan (100m scale bar). Unit numbers from the developer's elevation charts.",
+ "plan": {
+  "pxPerM": 2.67,
+  "origin": [
+   800,
+   640
+  ]
+ },
+ "storeyHeight": 3.15,
+ "platformHeight": 9,
+ "unitSize": [
+  9,
+  11
+ ],
+ "outline": [
+  [
+   118,
+   368
+  ],
+  [
+   160,
+   335
+  ],
+  [
+   205,
+   330
+  ],
+  [
+   240,
+   370
+  ],
+  [
+   300,
+   470
+  ],
+  [
+   340,
+   525
+  ],
+  [
+   420,
+   540
+  ],
+  [
+   520,
+   548
+  ],
+  [
+   640,
+   556
+  ],
+  [
+   760,
+   570
+  ],
+  [
+   840,
+   560
+  ],
+  [
+   880,
+   520
+  ],
+  [
+   930,
+   450
+  ],
+  [
+   990,
+   395
+  ],
+  [
+   1060,
+   345
+  ],
+  [
+   1130,
+   330
+  ],
+  [
+   1190,
+   340
+  ],
+  [
+   1240,
+   370
+  ],
+  [
+   1290,
+   420
+  ],
+  [
+   1350,
+   490
+  ],
+  [
+   1420,
+   580
+  ],
+  [
+   1480,
+   650
+  ],
+  [
+   1525,
+   720
+  ],
+  [
+   1530,
+   790
+  ],
+  [
+   1490,
+   830
+  ],
+  [
+   1380,
+   840
+  ],
+  [
+   1250,
+   830
+  ],
+  [
+   1100,
+   835
+  ],
+  [
+   950,
+   855
+  ],
+  [
+   800,
+   870
+  ],
+  [
+   650,
+   860
+  ],
+  [
+   500,
+   830
+  ],
+  [
+   370,
+   790
+  ],
+  [
+   260,
+   740
+  ],
+  [
+   170,
+   650
+  ],
+  [
+   120,
+   560
+  ],
+  [
+   95,
+   460
+  ]
+ ],
+ "water": [
+  [
+   [
+    466,
+    598
+   ],
+   [
+    520,
+    598
+   ],
+   [
+    560,
+    615
+   ],
+   [
+    600,
+    628
+   ],
+   [
+    620,
+    640
+   ],
+   [
+    605,
+    660
+   ],
+   [
+    560,
+    668
+   ],
+   [
+    520,
+    676
+   ],
+   [
+    480,
+    676
+   ],
+   [
+    466,
+    660
+   ]
+  ],
+  [
+   [
+    600,
+    632
+   ],
+   [
+    640,
+    630
+   ],
+   [
+    690,
+    650
+   ],
+   [
+    705,
+    668
+   ],
+   [
+    700,
+    695
+   ],
+   [
+    675,
+    712
+   ],
+   [
+    648,
+    712
+   ],
+   [
+    622,
+    692
+   ],
+   [
+    606,
+    664
+   ]
+  ],
+  [
+   [
+    700,
+    665
+   ],
+   [
+    740,
+    655
+   ],
+   [
+    780,
+    660
+   ],
+   [
+    820,
+    680
+   ],
+   [
+    850,
+    702
+   ],
+   [
+    862,
+    740
+   ],
+   [
+    850,
+    772
+   ],
+   [
+    820,
+    772
+   ],
+   [
+    790,
+    748
+   ],
+   [
+    760,
+    724
+   ],
+   [
+    722,
+    704
+   ],
+   [
+    700,
+    692
+   ]
+  ],
+  [
+   [
+    1030,
+    660
+   ],
+   [
+    1070,
+    640
+   ],
+   [
+    1110,
+    620
+   ],
+   [
+    1150,
+    612
+   ],
+   [
+    1190,
+    620
+   ],
+   [
+    1200,
+    640
+   ],
+   [
+    1190,
+    656
+   ],
+   [
+    1150,
+    662
+   ],
+   [
+    1110,
+    668
+   ],
+   [
+    1080,
+    682
+   ],
+   [
+    1050,
+    692
+   ],
+   [
+    1030,
+    692
+   ]
+  ],
+  [
+   [
+    890,
+    710
+   ],
+   [
+    950,
+    702
+   ],
+   [
+    1010,
+    700
+   ],
+   [
+    1060,
+    702
+   ],
+   [
+    1090,
+    714
+   ],
+   [
+    1080,
+    742
+   ],
+   [
+    1060,
+    762
+   ],
+   [
+    1042,
+    790
+   ],
+   [
+    1000,
+    790
+   ],
+   [
+    960,
+    792
+   ],
+   [
+    905,
+    790
+   ],
+   [
+    890,
+    762
+   ]
+  ],
+  [
+   [
+    1042,
+    560
+   ],
+   [
+    1070,
+    555
+   ],
+   [
+    1076,
+    585
+   ],
+   [
+    1050,
+    592
+   ]
+  ],
+  [
+   [
+    255,
+    520
+   ],
+   [
+    275,
+    515
+   ],
+   [
+    295,
+    535
+   ],
+   [
+    305,
+    560
+   ],
+   [
+    300,
+    590
+   ],
+   [
+    305,
+    615
+   ],
+   [
+    290,
+    640
+   ],
+   [
+    275,
+    630
+   ],
+   [
+    265,
+    600
+   ],
+   [
+    260,
+    570
+   ],
+   [
+    250,
+    545
+   ]
+  ]
+ ],
+ "roads": [
+  {
+   "name": "Upper Thomson Road",
+   "w": 22,
+   "pts": [
+    [
+     20,
+     580
+    ],
+    [
+     150,
+     770
+    ],
+    [
+     350,
+     885
+    ],
+    [
+     650,
+     940
+    ],
+    [
+     1000,
+     955
+    ],
+    [
+     1350,
+     930
+    ],
+    [
+     1560,
+     870
+    ],
+    [
+     1720,
+     820
+    ]
+   ],
+   "labelAt": 3
+  },
+  {
+   "name": "Bright Hill Drive",
+   "w": 14,
+   "pts": [
+    [
+     1230,
+     270
+    ],
+    [
+     1340,
+     375
+    ],
+    [
+     1450,
+     500
+    ],
+    [
+     1565,
+     650
+    ],
+    [
+     1650,
+     760
+    ]
+   ],
+   "labelAt": 2
+  },
+  {
+   "name": "Sin Ming Avenue",
+   "w": 14,
+   "pts": [
+    [
+     -60,
+     470
+    ],
+    [
+     40,
+     380
+    ],
+    [
+     150,
+     290
+    ],
+    [
+     260,
+     215
+    ]
+   ],
+   "labelAt": 1
+  }
+ ],
+ "pois": [
+  {
+   "name": "Upper Thomson MRT · Exit 2",
+   "at": [
+    1405,
+    745
+   ],
+   "y": 4,
+   "kind": "mrt"
+  },
+  {
+   "name": "Wellness Club",
+   "at": [
+    270,
+    600
+   ],
+   "y": 14,
+   "kind": "club"
+  },
+  {
+   "name": "Grand Clubhouse",
+   "at": [
+    900,
+    730
+   ],
+   "y": 16,
+   "kind": "club"
+  },
+  {
+   "name": "Island Club",
+   "at": [
+    1215,
+    575
+   ],
+   "y": 18,
+   "kind": "club"
+  },
+  {
+   "name": "Entrance · Sin Ming Ave",
+   "at": [
+    178,
+    343
+   ],
+   "y": 10,
+   "kind": "gate"
+  },
+  {
+   "name": "Entrance · Bright Hill Dr",
+   "at": [
+    1330,
+    580
+   ],
+   "y": 10,
+   "kind": "gate"
+  }
+ ],
+ "collections": {
+  "Classic": {
+   "label": "Classic Collection",
+   "carparkL1": true
+  },
+  "Luxury": {
+   "label": "Luxury Collection",
+   "carparkL1": false
+  }
+ },
+ "blocks": [
+  {
+   "id": "1",
+   "collection": "Classic",
+   "angle": 119,
+   "label": [
+    1281,
+    669
+   ],
+   "address": "1 Bright Hill Drive"
+  },
+  {
+   "id": "3",
+   "collection": "Classic",
+   "angle": -16,
+   "label": [
+    1109,
+    754
+   ],
+   "address": "3 Bright Hill Drive"
+  },
+  {
+   "id": "5",
+   "collection": "Luxury",
+   "angle": 15.6,
+   "label": [
+    545,
+    729
+   ],
+   "address": "5 Bright Hill Drive"
+  },
+  {
+   "id": "7",
+   "collection": "Luxury",
+   "angle": 92,
+   "label": [
+    397,
+    629
+   ],
+   "address": "7 Bright Hill Drive"
+  },
+  {
+   "id": "9",
+   "collection": "Classic",
+   "angle": -16.5,
+   "label": [
+    991,
+    626
+   ],
+   "address": "9 Bright Hill Drive"
+  },
+  {
+   "id": "11",
+   "collection": "Classic",
+   "angle": 18.8,
+   "label": [
+    1168,
+    495
+   ],
+   "address": "11 Bright Hill Drive"
+  }
+ ],
+ "stackFields": [
+  "block",
+  "px",
+  "py",
+  "fromFloor",
+  "toFloor",
+  "type",
+  "pFloor"
+ ],
+ "stacks": {
+  "01": [
+   "1",
+   1315,
+   644,
+   2,
+   21,
+   "CP2",
+   2
+  ],
+  "02": [
+   "1",
+   1307,
+   668,
+   2,
+   21,
+   "BP3",
+   2
+  ],
+  "03": [
+   "1",
+   1296,
+   687,
+   2,
+   21,
+   "BP1",
+   2
+  ],
+  "04": [
+   "1",
+   1288,
+   707,
+   2,
+   21,
+   "BPS1",
+   2
+  ],
+  "05": [
+   "1",
+   1275,
+   729,
+   2,
+   21,
+   "CPS1",
+   2
+  ],
+  "06": [
+   "1",
+   1246,
+   693,
+   2,
+   21,
+   "CP1",
+   2
+  ],
+  "07": [
+   "1",
+   1260,
+   673,
+   2,
+   21,
+   "B1",
+   2
+  ],
+  "08": [
+   "1",
+   1271,
+   653,
+   2,
+   21,
+   "B2",
+   2
+  ],
+  "09": [
+   "1",
+   1284,
+   625,
+   2,
+   21,
+   "C1",
+   2
+  ],
+  "10": [
+   "3",
+   1169,
+   756,
+   2,
+   21,
+   "CPS1",
+   2
+  ],
+  "11": [
+   "3",
+   1147,
+   766,
+   2,
+   21,
+   "BPS1",
+   2
+  ],
+  "12": [
+   "3",
+   1126,
+   771,
+   2,
+   21,
+   "BP3",
+   2
+  ],
+  "13": [
+   "3",
+   1101,
+   775,
+   2,
+   21,
+   "BP2",
+   2
+  ],
+  "14": [
+   "3",
+   1075,
+   780,
+   2,
+   21,
+   "D3",
+   2
+  ],
+  "15": [
+   "3",
+   1066,
+   742,
+   2,
+   21,
+   "D2",
+   2
+  ],
+  "16": [
+   "3",
+   1091,
+   736,
+   2,
+   21,
+   "B3",
+   2
+  ],
+  "17": [
+   "3",
+   1116,
+   730,
+   2,
+   21,
+   "B1",
+   2
+  ],
+  "18": [
+   "3",
+   1140,
+   721,
+   2,
+   21,
+   "CP1",
+   2
+  ],
+  "19": [
+   "5",
+   585,
+   764,
+   3,
+   30,
+   "E1 (L)",
+   null
+  ],
+  "20": [
+   "5",
+   551,
+   752,
+   1,
+   30,
+   "BP7 (L)",
+   1
+  ],
+  "21": [
+   "5",
+   530,
+   746,
+   3,
+   30,
+   "BP3 (L)",
+   null
+  ],
+  "22": [
+   "5",
+   500,
+   740,
+   3,
+   30,
+   "DPS1 (L)",
+   null
+  ],
+  "23": [
+   "5",
+   497,
+   694,
+   1,
+   30,
+   "C5 (L)",
+   1
+  ],
+  "24": [
+   "5",
+   523,
+   696,
+   1,
+   30,
+   "BPS3 (L)",
+   1
+  ],
+  "25": [
+   "5",
+   544,
+   706,
+   1,
+   30,
+   "BPS4 (L)",
+   1
+  ],
+  "26": [
+   "5",
+   566,
+   714,
+   1,
+   30,
+   "BP6 (L)",
+   1
+  ],
+  "27": [
+   "5",
+   590,
+   720,
+   1,
+   30,
+   "D4 (L)",
+   1
+  ],
+  "28": [
+   "7",
+   376,
+   669,
+   1,
+   30,
+   "CP7 (L)",
+   1
+  ],
+  "29": [
+   "7",
+   378,
+   644,
+   1,
+   30,
+   "BP2 (L)",
+   1
+  ],
+  "30": [
+   "7",
+   377,
+   620,
+   3,
+   30,
+   "BP3 (L)",
+   null
+  ],
+  "31": [
+   "7",
+   378,
+   597,
+   1,
+   30,
+   "BPS2 (L)",
+   1
+  ],
+  "32": [
+   "7",
+   380,
+   572,
+   3,
+   30,
+   "DP2 (L)",
+   null
+  ],
+  "33": [
+   "7",
+   426,
+   594,
+   1,
+   30,
+   "C3 (L)",
+   1
+  ],
+  "34": [
+   "7",
+   421,
+   619,
+   1,
+   30,
+   "BPS4 (L)",
+   1
+  ],
+  "35": [
+   "7",
+   419,
+   637,
+   1,
+   30,
+   "BP6 (L)",
+   1
+  ],
+  "36": [
+   "7",
+   423,
+   671,
+   3,
+   30,
+   "DP1 (L)",
+   null
+  ],
+  "37": [
+   "9",
+   945,
+   618,
+   2,
+   21,
+   "CP6",
+   2
+  ],
+  "38": [
+   "9",
+   974,
+   609,
+   2,
+   21,
+   "BP1",
+   2
+  ],
+  "39": [
+   "9",
+   995,
+   606,
+   2,
+   21,
+   "BP3",
+   2
+  ],
+  "40": [
+   "9",
+   1019,
+   596,
+   2,
+   21,
+   "C4",
+   2
+  ],
+  "41": [
+   "9",
+   1031,
+   635,
+   2,
+   21,
+   "CPS2",
+   2
+  ],
+  "42": [
+   "9",
+   1007,
+   646,
+   2,
+   21,
+   "BP9",
+   2
+  ],
+  "43": [
+   "9",
+   987,
+   652,
+   2,
+   21,
+   "BP5",
+   2
+  ],
+  "44": [
+   "9",
+   965,
+   659,
+   2,
+   21,
+   "BPS4",
+   2
+  ],
+  "45": [
+   "9",
+   930,
+   661,
+   2,
+   21,
+   "D1",
+   2
+  ],
+  "46": [
+   "11",
+   1111,
+   459,
+   2,
+   21,
+   "CP3",
+   2
+  ],
+  "47": [
+   "11",
+   1132,
+   471,
+   2,
+   21,
+   "BP3",
+   2
+  ],
+  "48": [
+   "11",
+   1163,
+   474,
+   2,
+   21,
+   "BP4",
+   2
+  ],
+  "49": [
+   "11",
+   1185,
+   480,
+   2,
+   21,
+   "BP4",
+   2
+  ],
+  "50": [
+   "11",
+   1208,
+   492,
+   2,
+   21,
+   "CP4",
+   2
+  ],
+  "51": [
+   "11",
+   1197,
+   527,
+   2,
+   21,
+   "CP5",
+   2
+  ],
+  "52": [
+   "11",
+   1171,
+   519,
+   2,
+   21,
+   "B3",
+   2
+  ],
+  "53": [
+   "11",
+   1149,
+   515,
+   2,
+   21,
+   "BP8",
+   2
+  ],
+  "54": [
+   "11",
+   1127,
+   510,
+   2,
+   21,
+   "BPS1",
+   2
+  ],
+  "55": [
+   "11",
+   1103,
+   505,
+   2,
+   21,
+   "C2",
+   2
+  ]
+ },
+ "typeCatalogue": [
+  {
+   "match": "^BPS4",
+   "label": "2-Bedroom Premium + Study",
+   "sqm": 72,
+   "sqft": 775,
+   "group": "2BPS"
+  },
+  {
+   "match": "^BPS",
+   "label": "2-Bedroom Premium + Study",
+   "sqm": 68,
+   "sqft": 732,
+   "group": "2BPS"
+  },
+  {
+   "match": "^BP",
+   "label": "2-Bedroom Premium",
+   "sqm": 63,
+   "sqft": 678,
+   "group": "2BP"
+  },
+  {
+   "match": "^B",
+   "label": "2-Bedroom",
+   "sqm": 55,
+   "sqft": 592,
+   "group": "2B"
+  },
+  {
+   "match": "^CPS",
+   "label": "3-Bedroom Premium + Study",
+   "sqm": 107,
+   "sqft": 1152,
+   "group": "3CPS"
+  },
+  {
+   "match": "^CP",
+   "label": "3-Bedroom Premium",
+   "sqm": 98,
+   "sqft": 1055,
+   "group": "3CP"
+  },
+  {
+   "match": "^C",
+   "label": "3-Bedroom",
+   "sqm": 88,
+   "sqft": 947,
+   "group": "3C"
+  },
+  {
+   "match": "^DPS",
+   "label": "4-Bedroom Premium + Study (private lift)",
+   "sqm": 138,
+   "sqft": 1485,
+   "group": "4DPS"
+  },
+  {
+   "match": "^DP",
+   "label": "4-Bedroom Premium (private lift)",
+   "sqm": 127,
+   "sqft": 1367,
+   "group": "4DP"
+  },
+  {
+   "match": "^D",
+   "label": "4-Bedroom",
+   "sqm": 115,
+   "sqft": 1238,
+   "group": "4D"
+  },
+  {
+   "match": "^E",
+   "label": "5-Bedroom Suite (private lift)",
+   "sqm": 168,
+   "sqft": 1808,
+   "group": "5E"
+  }
+ ],
+ "groups": [
+  {
+   "id": "2B",
+   "label": "2-Bedroom",
+   "color": "#ddd5ba"
+  },
+  {
+   "id": "2BP",
+   "label": "2-Bedroom Premium",
+   "color": "#bdb78c"
+  },
+  {
+   "id": "2BPS",
+   "label": "2-Bedroom Premium + Study",
+   "color": "#918b5d"
+  },
+  {
+   "id": "3C",
+   "label": "3-Bedroom",
+   "color": "#d3e8e8"
+  },
+  {
+   "id": "3CP",
+   "label": "3-Bedroom Premium",
+   "color": "#9fcbd0"
+  },
+  {
+   "id": "3CPS",
+   "label": "3-Bedroom Premium + Study",
+   "color": "#6f9ea3"
+  },
+  {
+   "id": "4D",
+   "label": "4-Bedroom",
+   "color": "#e8d2da"
+  },
+  {
+   "id": "4DP",
+   "label": "4-Bedroom Premium (PL)",
+   "color": "#cf9fb2"
+  },
+  {
+   "id": "4DPS",
+   "label": "4-Bedroom Premium + Study (PL)",
+   "color": "#9e6f83"
+  },
+  {
+   "id": "5E",
+   "label": "5-Bedroom Suite (PL)",
+   "color": "#efb48f"
+  }
+ ],
+ "expectTotal": 1268,
+ "cameras": {
+  "overview": {
+   "pos": [
+    -190,
+    430,
+    560
+   ],
+   "target": [
+    10,
+    20,
+    -10
+   ],
+   "label": "3D overview"
+  },
+  "plan": {
+   "pos": [
+    0,
+    820,
+    1
+   ],
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "label": "Site plan"
+  },
+  "road": {
+   "pos": [
+    40,
+    70,
+    470
+   ],
+   "target": [
+    20,
+    45,
+    0
+   ],
+   "label": "From Upper Thomson Rd"
+  },
+  "mrt": {
+   "pos": [
+    470,
+    150,
+    300
+   ],
+   "target": [
+    100,
+    40,
+    0
+   ],
+   "label": "From the MRT side"
+  }
+ },
+ "agent": {
+  "name": "Xavier Chong",
+  "cea": "R066515Z",
+  "agency": "PropNex Realty",
+  "agencyLicence": "L3008022J",
+  "whatsapp": "6598171117",
+  "display": "+65 9817 1117"
+ },
+ "disclaimer": "Independent illustration by a PropNex salesperson, built from the developer's site plan, unit mix, factsheet and briefing. Tower and facility positions are traced from the site plan and are approximate. Not an offer or a contract. Verify all details with the developer's official documents."
+}

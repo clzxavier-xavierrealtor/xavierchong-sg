@@ -1,0 +1,4 @@
+/thomson-reserve/assets/*
+  Cache-Control: public, max-age=604800
+/thomson-reserve/engine/*
+  Cache-Control: public, max-age=86400

@@ -1,0 +1,1263 @@
+{
+ "facilities_px": [
+  [
+   1,
+   "Reflective Pool",
+   "island",
+   1178,
+   593,
+   "water"
+  ],
+  [
+   2,
+   "Oak Lounge (Social Lounge 1)",
+   "island",
+   1188,
+   649,
+   "room"
+  ],
+  [
+   3,
+   "Seating Deck",
+   "island",
+   1174,
+   626,
+   "deck"
+  ],
+  [
+   4,
+   "Cedar Room (Function Room 1)",
+   "island",
+   1155,
+   608,
+   "room"
+  ],
+  [
+   5,
+   "Entertainment Room 1",
+   "island",
+   1132,
+   594,
+   "room"
+  ],
+  [
+   6,
+   "Changing Room",
+   "island",
+   1127,
+   615,
+   "room"
+  ],
+  [
+   7,
+   "Cherry Room (Function Room 2)",
+   "island",
+   1106,
+   596,
+   "room"
+  ],
+  [
+   8,
+   "Social Lawn",
+   "island",
+   1198,
+   731,
+   "lawn"
+  ],
+  [
+   9,
+   "Central Lawn",
+   "island",
+   1142,
+   561,
+   "lawn"
+  ],
+  [
+   10,
+   "Clubhouse Terrace",
+   "island",
+   1105,
+   618,
+   "deck"
+  ],
+  [
+   11,
+   "Island Pool",
+   "island",
+   1118,
+   660,
+   "pool"
+  ],
+  [
+   12,
+   "Garden Lawn",
+   "island",
+   1098,
+   705,
+   "lawn"
+  ],
+  [
+   13,
+   "Relaxation Deck",
+   "island",
+   1074,
+   557,
+   "deck"
+  ],
+  [
+   14,
+   "Relaxation Bubble Pool",
+   "island",
+   1058,
+   575,
+   "pool"
+  ],
+  [
+   15,
+   "Waterbed",
+   "island",
+   1029,
+   690,
+   "pool"
+  ],
+  [
+   16,
+   "Island Pool Deck",
+   "island",
+   1006,
+   690,
+   "deck"
+  ],
+  [
+   17,
+   "Pool Cabana",
+   "island",
+   987,
+   806,
+   "pavilion"
+  ],
+  [
+   18,
+   "Infinity Lap Pool Deck",
+   "island",
+   969,
+   786,
+   "deck"
+  ],
+  [
+   19,
+   "Infinity Lap Pool (50m)",
+   "island",
+   957,
+   758,
+   "pool"
+  ],
+  [
+   20,
+   "Waterfall",
+   "island",
+   925,
+   726,
+   "water"
+  ],
+  [
+   21,
+   "Island Floating Bridge",
+   "island",
+   886,
+   683,
+   "bridge"
+  ],
+  [
+   22,
+   "Grand Arrival",
+   "island",
+   1213,
+   600,
+   "arrival"
+  ],
+  [
+   23,
+   "Forest Grill Pavilion 1",
+   "island",
+   1366,
+   729,
+   "pavilion"
+  ],
+  [
+   24,
+   "Forest Grill Pavilion 2",
+   "island",
+   1364,
+   758,
+   "pavilion"
+  ],
+  [
+   25,
+   "Forest Grill Pavilion 3",
+   "island",
+   1331,
+   789,
+   "pavilion"
+  ],
+  [
+   26,
+   "Forest Quest Playground",
+   "island",
+   1278,
+   799,
+   "play"
+  ],
+  [
+   27,
+   "Play Lawn",
+   "island",
+   1199,
+   807,
+   "lawn"
+  ],
+  [
+   28,
+   "Forest Gym",
+   "island",
+   1155,
+   366,
+   "gym"
+  ],
+  [
+   29,
+   "Forest Pavilion",
+   "island",
+   1159,
+   391,
+   "pavilion"
+  ],
+  [
+   30,
+   "Paw Garden",
+   "island",
+   1004,
+   503,
+   "lawn"
+  ],
+  [
+   31,
+   "Paw Garden Pavilion",
+   "island",
+   985,
+   524,
+   "pavilion"
+  ],
+  [
+   32,
+   "Forest Terrace",
+   "island",
+   956,
+   558,
+   "deck"
+  ],
+  [
+   33,
+   "Cascade Terrace",
+   "grand",
+   899,
+   731,
+   "deck"
+  ],
+  [
+   34,
+   "Cascade Cove",
+   "grand",
+   878,
+   721,
+   "water"
+  ],
+  [
+   35,
+   "Zen Terrace",
+   "grand",
+   859,
+   649,
+   "deck"
+  ],
+  [
+   36,
+   "Grand Function Room",
+   "grand",
+   853,
+   687,
+   "room"
+  ],
+  [
+   37,
+   "Maple Room (Function Room 3)",
+   "grand",
+   842,
+   666,
+   "room"
+  ],
+  [
+   38,
+   "Changing Room",
+   "grand",
+   827,
+   649,
+   "room"
+  ],
+  [
+   39,
+   "Golf Simulator",
+   "grand",
+   803,
+   649,
+   "room"
+  ],
+  [
+   40,
+   "Recreation Room",
+   "grand",
+   784,
+   635,
+   "room"
+  ],
+  [
+   41,
+   "Little Canopy Room (Kids Function Room)",
+   "grand",
+   762,
+   633,
+   "room"
+  ],
+  [
+   42,
+   "Little Explorer Nook (Kids Play Room)",
+   "grand",
+   741,
+   641,
+   "room"
+  ],
+  [
+   43,
+   "Main Gym (2nd Storey)",
+   "grand",
+   813,
+   630,
+   "gym"
+  ],
+  [
+   44,
+   "Outdoor Yoga Deck (2nd Storey)",
+   "grand",
+   734,
+   621,
+   "deck"
+  ],
+  [
+   45,
+   "Leisure Pool",
+   "grand",
+   782,
+   705,
+   "pool"
+  ],
+  [
+   46,
+   "Leisure Pool Deck",
+   "grand",
+   760,
+   656,
+   "deck"
+  ],
+  [
+   47,
+   "Grand Lawn",
+   "grand",
+   746,
+   757,
+   "lawn"
+  ],
+  [
+   48,
+   "Grand Lawn Pavilion",
+   "grand",
+   722,
+   743,
+   "pavilion"
+  ],
+  [
+   49,
+   "Sensory Play",
+   "grand",
+   698,
+   772,
+   "play"
+  ],
+  [
+   50,
+   "Lookout Pavilion",
+   "grand",
+   663,
+   793,
+   "pavilion"
+  ],
+  [
+   51,
+   "Hammock Cove",
+   "grand",
+   660,
+   731,
+   "deck"
+  ],
+  [
+   52,
+   "Kids Adventure Zone",
+   "grand",
+   650,
+   615,
+   "play"
+  ],
+  [
+   53,
+   "Kids Pool",
+   "grand",
+   644,
+   648,
+   "pool"
+  ],
+  [
+   54,
+   "Social Garden",
+   "grand",
+   611,
+   778,
+   "lawn"
+  ],
+  [
+   55,
+   "Family Deck",
+   "grand",
+   620,
+   628,
+   "deck"
+  ],
+  [
+   56,
+   "Aspen Room (Function Room 4)",
+   "grand",
+   604,
+   616,
+   "room"
+  ],
+  [
+   57,
+   "Olive Lounge (Social Lounge 2)",
+   "grand",
+   587,
+   604,
+   "room"
+  ],
+  [
+   58,
+   "Changing Room",
+   "grand",
+   569,
+   596,
+   "room"
+  ],
+  [
+   59,
+   "Entertainment Room 2",
+   "grand",
+   549,
+   591,
+   "room"
+  ],
+  [
+   60,
+   "Pine Room (Function Room 5)",
+   "grand",
+   530,
+   588,
+   "room"
+  ],
+  [
+   61,
+   "Canopy Pool Deck",
+   "grand",
+   567,
+   619,
+   "deck"
+  ],
+  [
+   62,
+   "Canopy Lap Pool (50m)",
+   "grand",
+   551,
+   639,
+   "pool"
+  ],
+  [
+   63,
+   "Firefly Riverine Garden",
+   "grand",
+   476,
+   658,
+   "lawn"
+  ],
+  [
+   64,
+   "Serenity Lawn",
+   "grand",
+   436,
+   701,
+   "lawn"
+  ],
+  [
+   65,
+   "Wellness Lawn",
+   "wellness",
+   319,
+   654,
+   "lawn"
+  ],
+  [
+   66,
+   "Wellness Pod Pavilion 1",
+   "wellness",
+   292,
+   645,
+   "pavilion"
+  ],
+  [
+   67,
+   "Wellness Pod Pavilion 2",
+   "wellness",
+   327,
+   592,
+   "pavilion"
+  ],
+  [
+   68,
+   "Wellness Pod Pavilion 3",
+   "wellness",
+   307,
+   568,
+   "pavilion"
+  ],
+  [
+   69,
+   "Herb Garden",
+   "wellness",
+   326,
+   498,
+   "lawn"
+  ],
+  [
+   70,
+   "Poolside BBQ Pavilion 1",
+   "wellness",
+   316,
+   536,
+   "pavilion"
+  ],
+  [
+   71,
+   "Poolside BBQ Pavilion 2",
+   "wellness",
+   296,
+   505,
+   "pavilion"
+  ],
+  [
+   72,
+   "Hydro Bay",
+   "wellness",
+   288,
+   543,
+   "pool"
+  ],
+  [
+   73,
+   "Hydro Spa Pool",
+   "wellness",
+   290,
+   608,
+   "pool"
+  ],
+  [
+   74,
+   "Hydro Lounger",
+   "wellness",
+   271,
+   580,
+   "pool"
+  ],
+  [
+   75,
+   "Active Pool",
+   "wellness",
+   267,
+   531,
+   "pool"
+  ],
+  [
+   76,
+   "Hydro Gym",
+   "wellness",
+   243,
+   536,
+   "gym"
+  ],
+  [
+   77,
+   "Wellness Terrace",
+   "wellness",
+   221,
+   535,
+   "deck"
+  ],
+  [
+   78,
+   "Wellness Studio",
+   "wellness",
+   208,
+   518,
+   "room"
+  ],
+  [
+   79,
+   "Pilates Studio",
+   "wellness",
+   230,
+   513,
+   "room"
+  ],
+  [
+   80,
+   "Changing Room / Steam Room",
+   "wellness",
+   219,
+   493,
+   "room"
+  ],
+  [
+   81,
+   "Private Gym",
+   "wellness",
+   262,
+   494,
+   "gym"
+  ],
+  [
+   82,
+   "Changing Room / Steam Room",
+   "wellness",
+   251,
+   476,
+   "room"
+  ],
+  [
+   83,
+   "Pavilion",
+   "wellness",
+   221,
+   461,
+   "pavilion"
+  ],
+  [
+   84,
+   "Multi-Purpose Court 1",
+   "wellness",
+   196,
+   484,
+   "court"
+  ],
+  [
+   85,
+   "Multi-Purpose Court 2",
+   "wellness",
+   171,
+   444,
+   "court"
+  ],
+  [
+   86,
+   "Tennis Court",
+   "wellness",
+   190,
+   410,
+   "court"
+  ]
+ ],
+ "facility_info": {
+  "36": "About 97 sqm with an 8.5m ceiling. Induction hob, oven, wine chiller.",
+  "4": "About 41 sqm, 3.5m ceiling, with kitchenette.",
+  "7": "About 38 sqm, 3.5m ceiling, with kitchenette.",
+  "37": "About 43 sqm, 3.5m ceiling.",
+  "56": "About 41 sqm, 3.5m ceiling, with kitchenette.",
+  "60": "About 41 sqm, 3.5m ceiling, with kitchenette.",
+  "43": "About 212 sqm, 3.5m ceiling.",
+  "39": "About 27 sqm.",
+  "40": "About 64 sqm, with football table, ping pong and darts.",
+  "42": "About 64 sqm.",
+  "41": "About 49 sqm.",
+  "19": "About 690 sqm, 1.2m deep, about 8 lanes.",
+  "62": "About 700 sqm, 1.2m deep, about 5 lanes.",
+  "11": "About 1,730 sqm, 1.2m deep. With the infinity lap pool, about 130m of water end to end.",
+  "45": "About 1,025 sqm, 1.2m deep.",
+  "53": "About 260 sqm, 0.5m deep.",
+  "47": "About 1,050 sqm of open lawn.",
+  "5": "About 21 sqm, 3.5m ceiling.",
+  "59": "About 18 sqm, 3.5m ceiling.",
+  "2": "Social lounge, about 30 sqm.",
+  "57": "Social lounge, about 30 sqm.",
+  "78": "About 45 sqm, 3.5m ceiling.",
+  "79": "About 29 sqm, with Pilates reformers.",
+  "81": "About 29 sqm, with dumbbells and a functional trainer.",
+  "23": "Electric BBQ.",
+  "24": "Electric BBQ.",
+  "25": "Electric BBQ.",
+  "70": "Charcoal BBQ.",
+  "71": "Charcoal BBQ.",
+  "30": "Two water points for washing paws.",
+  "73": "Hydro lounger beds and spa seats.",
+  "72": "Four spa seats.",
+  "74": "Three spa beds.",
+  "22": "Drop-off at Bright Hill Drive, beside Upper Thomson MRT Exit 2."
+ },
+ "facility_images": {
+  "36": "function-room.jpg",
+  "43": "gym.jpg",
+  "41": "kids-rooms.jpg",
+  "42": "kids-rooms.jpg",
+  "73": "hydro-spa.jpg",
+  "66": "hydro-spa.jpg",
+  "67": "hydro-spa.jpg",
+  "68": "hydro-spa.jpg",
+  "74": "hydro-spa.jpg",
+  "62": "canopy-lap.jpg",
+  "61": "canopy-leisure.jpg",
+  "45": "leisure-pool.jpg",
+  "46": "leisure-pool.jpg",
+  "47": "grand-lawn.jpg",
+  "48": "grand-lawn.jpg",
+  "33": "cascade.jpg",
+  "34": "cascade.jpg",
+  "19": "infinity-lap.jpg",
+  "18": "infinity-lap.jpg",
+  "20": "infinity-lap.jpg",
+  "11": "island-pool.jpg",
+  "16": "island-pool.jpg",
+  "22": "arrival.jpg"
+ },
+ "clubs": {
+  "island": {
+   "name": "Island Club",
+   "color": "#3f8fae",
+   "desc": "Resort pools on a landscaped deck one storey up, around blocks 1, 3, 9 and 11.",
+   "img": "island-pool.jpg"
+  },
+  "grand": {
+   "name": "Grand Clubhouse",
+   "color": "#b5683f",
+   "desc": "The social heart: function rooms, gym, the 50m canopy lap pool and the Grand Lawn.",
+   "img": "canopy-leisure.jpg"
+  },
+  "wellness": {
+   "name": "Wellness Club",
+   "color": "#3fa58b",
+   "desc": "Gyms, studios, hydro pools and courts at the Sin Ming Avenue end.",
+   "img": "hydro-spa.jpg"
+  }
+ },
+ "club_buildings_px": [
+  {
+   "name": "Grand Clubhouse",
+   "pts": [
+    [
+     728,
+     612
+    ],
+    [
+     768,
+     622
+    ],
+    [
+     808,
+     624
+    ],
+    [
+     842,
+     636
+    ],
+    [
+     866,
+     660
+    ],
+    [
+     878,
+     698
+    ]
+   ],
+   "depth": 13,
+   "storeys": 2
+  },
+  {
+   "name": "Island Club lounges",
+   "pts": [
+    [
+     1096,
+     602
+    ],
+    [
+     1126,
+     586
+    ],
+    [
+     1158,
+     592
+    ],
+    [
+     1182,
+     612
+    ],
+    [
+     1194,
+     646
+    ]
+   ],
+   "depth": 11,
+   "storeys": 1
+  },
+  {
+   "name": "Grand Clubhouse west wing",
+   "pts": [
+    [
+     524,
+     584
+    ],
+    [
+     566,
+     592
+    ],
+    [
+     606,
+     610
+    ],
+    [
+     628,
+     626
+    ]
+   ],
+   "depth": 10,
+   "storeys": 1
+  },
+  {
+   "name": "Wellness Club",
+   "pts": [
+    [
+     204,
+     474
+    ],
+    [
+     222,
+     508
+    ],
+    [
+     240,
+     528
+    ],
+    [
+     266,
+     540
+    ]
+   ],
+   "depth": 12,
+   "storeys": 1
+  }
+ ],
+ "deck_px": [
+  [
+   885,
+   420
+  ],
+  [
+   990,
+   395
+  ],
+  [
+   1060,
+   345
+  ],
+  [
+   1130,
+   330
+  ],
+  [
+   1190,
+   340
+  ],
+  [
+   1240,
+   370
+  ],
+  [
+   1290,
+   420
+  ],
+  [
+   1350,
+   490
+  ],
+  [
+   1420,
+   580
+  ],
+  [
+   1480,
+   650
+  ],
+  [
+   1525,
+   720
+  ],
+  [
+   1530,
+   790
+  ],
+  [
+   1490,
+   830
+  ],
+  [
+   1380,
+   840
+  ],
+  [
+   1250,
+   830
+  ],
+  [
+   1100,
+   835
+  ],
+  [
+   950,
+   855
+  ],
+  [
+   885,
+   850
+  ]
+ ],
+ "views": [
+  {
+   "id": "v1",
+   "file": "v1.jpg",
+   "bearing": 135,
+   "group": "east",
+   "levels": "5 to 21",
+   "toward": "CBD skyline to the south-east"
+  },
+  {
+   "id": "v2",
+   "file": "v2.jpg",
+   "bearing": 175,
+   "group": "east",
+   "levels": "5 to 21",
+   "toward": "MacRitchie Reservoir and the Orchard Road skyline to the south"
+  },
+  {
+   "id": "v3",
+   "file": "v3.jpg",
+   "bearing": 185,
+   "group": "mid",
+   "levels": "5 to 21",
+   "toward": "MacRitchie Reservoir and the Orchard Road skyline to the south"
+  },
+  {
+   "id": "v4",
+   "file": "v4.jpg",
+   "bearing": 225,
+   "group": "mid",
+   "levels": "5 to 21",
+   "toward": "Low-rise landed homes and Windsor Nature Park to the south-west"
+  },
+  {
+   "id": "v5",
+   "file": "v5.jpg",
+   "bearing": 230,
+   "group": "west",
+   "levels": "5 to 30",
+   "toward": "Windsor Park good class bungalows, Windsor Nature Park and Bukit Timah to the south-west"
+  },
+  {
+   "id": "v6",
+   "file": "v6.jpg",
+   "bearing": 265,
+   "group": "west",
+   "levels": "5 to 30",
+   "toward": "Windsor Park and the nature reserve to the west"
+  },
+  {
+   "id": "v7",
+   "file": "v7.jpg",
+   "bearing": 315,
+   "group": "west",
+   "levels": "5 to 30",
+   "toward": "SICC golf course and the Lower and Upper Peirce reservoirs to the north-west"
+  },
+  {
+   "id": "v8",
+   "file": "v8.jpg",
+   "bearing": 140,
+   "group": "west",
+   "levels": "5 to 30",
+   "toward": "MacRitchie, the CBD and Orchard Road skyline to the south-east"
+  }
+ ],
+ "view_groups": {
+  "1": "east",
+  "3": "mid",
+  "9": "mid",
+  "11": "east",
+  "5": "west",
+  "7": "west"
+ },
+ "outlook_by_bearing": [
+  [
+   0,
+   "Sin Ming HDB estate and Bishan to the north"
+  ],
+  [
+   45,
+   "Thomson Three, Sin Ming Lane and Bright Hill to the north-east"
+  ],
+  [
+   90,
+   "Bright Hill Drive and the Kong Meng San monastery grounds to the east"
+  ],
+  [
+   135,
+   "Thomson Plaza, landed homes and the CBD skyline to the south-east"
+  ],
+  [
+   180,
+   "Landed homes, MacRitchie Reservoir and the Orchard Road skyline to the south"
+  ],
+  [
+   225,
+   "Windsor Park bungalows and Windsor Nature Park to the south-west"
+  ],
+  [
+   270,
+   "Windsor Park and the Central Catchment Nature Reserve to the west"
+  ],
+  [
+   315,
+   "SICC golf course and the Peirce reservoirs to the north-west"
+  ]
+ ],
+ "osm_heights": [
+  [
+   "Bishan Point",
+   32
+  ],
+  [
+   "Thomson Plaza",
+   3
+  ]
+ ],
+ "factsheet": [
+  {
+   "title": "Development",
+   "rows": [
+    [
+     "Developer",
+     "Tamarind Development Pte Ltd, a joint venture of CapitaLand Development, UOL Group and Singapore Land Group"
+    ],
+    [
+     "Address",
+     "1, 3, 5, 7, 9 and 11 Bright Hill Drive"
+    ],
+    [
+     "Tenure",
+     "99 years from 14 July 2026"
+    ],
+    [
+     "District",
+     "20"
+    ],
+    [
+     "Site area",
+     "51,567 sqm, plot ratio 2.1"
+    ],
+    [
+     "Homes",
+     "1,268 in 2 blocks of 30 storeys and 4 blocks of 21 storeys"
+    ],
+    [
+     "Expected TOP (NOVP)",
+     "28 Feb 2031"
+    ],
+    [
+     "Expected legal completion",
+     "28 Feb 2034"
+    ],
+    [
+     "Car park",
+     "1,021 lots incl. 31 EV and 7 accessible; basement and level 1"
+    ],
+    [
+     "Bicycle lots",
+     "317"
+    ]
+   ]
+  },
+  {
+   "title": "Team",
+   "rows": [
+    [
+     "Architect",
+     "P&T Consultants"
+    ],
+    [
+     "Landscape",
+     "Eco Plan Asia"
+    ],
+    [
+     "Interior design",
+     "2nd Edition"
+    ],
+    [
+     "Main contractor",
+     "Lian Beng Construction"
+    ]
+   ]
+  },
+  {
+   "title": "Inside the homes",
+   "rows": [
+    [
+     "Ceiling height",
+     "2.85m in living, dining and bedrooms"
+    ],
+    [
+     "Kitchen appliances",
+     "Smeg in the Classic Collection; Miele in the Luxury Collection, with Liebherr fridges and wine chillers in the 4BR premium and 5BR suites"
+    ],
+    [
+     "Smart home",
+     "Digital lockset, smart air-con control for every fan coil, smart home hub"
+    ],
+    [
+     "Air-con",
+     "Ducted in 4-bedrooms and above; wall-mounted elsewhere"
+    ],
+    [
+     "Hot water",
+     "Electric for 2-bedroom types; town gas for 3-bedroom and above"
+    ],
+    [
+     "Private lift",
+     "4BR Premium, 4BR Premium + Study and 5BR Suite (Blk 5 and 7)"
+    ],
+    [
+     "Waste",
+     "Pneumatic waste conveyance system"
+    ]
+   ]
+  },
+  {
+   "title": "Getting around",
+   "rows": [
+    [
+     "MRT",
+     "Upper Thomson (TE8), Thomson-East Coast Line, with Exit 2 at the Bright Hill Drive entrance"
+    ],
+    [
+     "Entrances",
+     "Bright Hill Drive (guardhouse) and Sin Ming Avenue (guard post)"
+    ],
+    [
+     "Lifts",
+     "3 passenger/fire lifts per block"
+    ]
+   ]
+  }
+ ],
+ "maintenance": [
+  [
+   "2-Bedroom",
+   "6 shares",
+   "$390"
+  ],
+  [
+   "2BR Premium / + Study",
+   "6 shares",
+   "$390"
+  ],
+  [
+   "3-Bedroom / Premium",
+   "6 shares",
+   "$390"
+  ],
+  [
+   "3BR Premium + Study",
+   "7 shares",
+   "$455"
+  ],
+  [
+   "4-Bedroom / 4BR Premium",
+   "7 shares",
+   "$455"
+  ],
+  [
+   "5-Bedroom Suite",
+   "8 shares",
+   "$520"
+  ]
+ ],
+ "share_by_group": {
+  "2B": [
+   6,
+   390
+  ],
+  "2BP": [
+   6,
+   390
+  ],
+  "2BPS": [
+   6,
+   390
+  ],
+  "3C": [
+   6,
+   390
+  ],
+  "3CP": [
+   6,
+   390
+  ],
+  "3CPS": [
+   7,
+   455
+  ],
+  "4D": [
+   7,
+   455
+  ],
+  "4DP": [
+   7,
+   455
+  ],
+  "4DPS": [
+   7,
+   455
+  ],
+  "5E": [
+   8,
+   520
+  ]
+ }
+}
