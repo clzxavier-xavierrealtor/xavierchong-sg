@@ -186,7 +186,8 @@ export async function boot(cfg) {
         } });
       } catch (e) { console.error(e); setStatus('The photoreal city could not load. Showing the model city.'); b.disabled = false; return; }
       b.disabled = false;
-      prTimer = setTimeout(() => { if (!photoreal?.ready) { setStatus(''); setPhotoreal(false); b.disabled = true; b.title = 'The photoreal city is only available on xavierchong.sg'; } }, 20000);
+      const startTimer = () => { clearTimeout(prTimer); prTimer = setTimeout(() => { if (document.hidden) return startTimer(); if (!photoreal?.ready) { setStatus('The photoreal city is taking a while. Showing the model city; tap Photoreal city to try again.'); setPhotoreal(false); } }, 30000); };
+      startTimer();
     }
     setPhotoreal(!st.photoreal);
   }
